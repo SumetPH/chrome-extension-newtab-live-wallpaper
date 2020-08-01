@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🍭 Are you dev ?</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: "Comic Sans MS", cursive, sans-serif	;
+      }
+      video {
+        display: none;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        opacity: 0.9;
+        z-index: -1;
+        transform: translateX(calc((100% - 100vw) / 2));
+      }
+      .credit {
+        position: fixed;
+        bottom: 0;
+        margin: 30px;
+        color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+      <div>
+        <video id="saenai" muted autoplay loop>
+          <source src="video/saenai.mp4" type="video/mp4" />
+        </video>
+        <video id="elaina" muted autoplay loop>
+          <source src="video/elaina.mp4" type="video/mp4" />
+        </video>
+        <video id="miko" muted autoplay loop>
+          <source src="video/miko.mp4" type="video/mp4" />
+        </video>
+        <video id="stardust" muted autoplay loop>
+          <source src="video/stardust.mp4" type="video/mp4" />
+        </video>
+        <video id="tower" muted autoplay loop>
+          <source src="video/tower.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div>
+        <h2 class="credit">Create by SumetPH 🍭</h2>
+      </div>
+    </div>
+    <script src="myScript.js"></script>
+  </body>
+</html>

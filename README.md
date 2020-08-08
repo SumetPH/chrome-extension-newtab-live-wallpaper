@@ -1,4 +1,4 @@
-# Chrome Extension Tab Live Wallpaper
+# Chrome Extension New Tab Live Wallpaper
 This extension for play video on new tab.    
 
 **How to install**
